@@ -19,7 +19,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-
     <title>Site HTML</title>
 </head>
 <body>
@@ -34,12 +33,12 @@
             <div class="container">
                 <nav>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Sobre nós</a></li>
+                        <li><a href="#assunto">Home</a></li>
+                        <li><a href="#tagCodeHtml">Tags e Códigos HTML</a></li>
                         <li><a href="#tenho-interesse">Tenho interesse</a></li>
                     </ul>
                 </nav>
-                <article>
+                <article id="assunto">
                     <div class="container">
                         <h1>Como criar pagina em HTML</h1>
                         <!--<img src="./images/web-design-planning-700x300.jpg" alt="Planejamento para criação de sites">-->
@@ -57,7 +56,7 @@
                         <h3>Principais tags e códigos HTML</h3>
                         <p>Temos aqui um exemplo de estrutura básica de linguagem, com as principais tags e <code class="code">códigos HTML</code> para sites. Elas devem ser inseridas nesta ordem, para que a linguagem dê certo no resultado final, quando acessar o navegador. Entenda também o que significa cada tag nas explicações abaixo.</p>
 
-                        <code>
+                        <code id="tagCodeHtml">
                             <ol>
                                 <li>&lt;!DOCTYPE html&gt;</li>
                                 <li>&lt;html lang-"pt-br"&gt;</li>
@@ -78,24 +77,26 @@
                
             </div>
         </section>  
-        <section id="tenho-interesse">
+        <section id="tenho-interesse" style="display: none;">
             <div class="container">
                 <article>
-                    <h1>Quer aprender mais?</h1>
-                    <p>Então preencha os campos abaixo para receber mais informações sobre HTML e desenvolvimento Web</p>
-
-                    <div class="cognito">
+                    <div id="alinhamento">
+                       <h1>Quer saber mais?</h1>
+                        <p>Preencha o formulario e fique por dentro das novidades!</p> 
+                    </div>
+                    
+                    <!--<div class="cognito">
                         <script src="https://www.cognitoforms.com/s/pnEzo69DJ02ilLkJFaThlw"></script>
                         <script>Cognito.load("forms", { id: "1" });</script>
-                    </div>
-
+                    </div>-->
                 </article>
             </div>
         </section>
+        <script type="text/javascript" src="https://form.jotform.com/jsform/220043349790050"></script>
         <footer>
             <div class="container">
                 <p>&copy; Site. Todos os direitos reservados.
-            <small>Desenvolvido por: </small></p>
+            <small>Blog desenvolvido por: </small></p>
             </div>
         </footer>
     </div>

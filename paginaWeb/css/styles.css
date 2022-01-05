@@ -69,12 +69,14 @@ img {
     height: auto;
 }
 #img-header{
-    height: 130px;
-    border-radius: 50%;
+    height: 300px;
+    width: 1000px;
+    margin-top: -30px;
+    margin-left: 175px;
 }
 
 #tenho-interesse {
-    background-color: #d6b8b8;
+    background-color: #ffffff;
     width: 100%;
 }
 
@@ -147,11 +149,13 @@ section article {
 }
 
 footer {
-    background-color: #756e6ede;  
+    background-color: #756e6e;  
     display: block;
     float: left;
     padding: 20px;
     width: 100%;
+    margin-top: -96px;/*-45px;*/
+    position: relative;
 }
 
 footer p {
